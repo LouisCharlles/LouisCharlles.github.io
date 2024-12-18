@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    font-family: "Fira Sans",Arial,sans-serif;
+    color: #141414;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,h2,h3,p{
+    margin: 0px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.subtitulo{
+    max-width: 4ch;
+    font-size: 8rem;
+    line-height: 1;
+    word-break: break-all;
+    text-transform: uppercase;
+}
+
+.empresa-descricao{
+    grid-column: 1;
+}
+
+.empresa-habilidades{
+    grid-column: 2;
+}
+
+@media(max-width:800px){
+    .subtitulo{
+        text-transform: capitalize;
+        max-width: initial !important;
+        font-size: 3.5rem;
+    }
+}
